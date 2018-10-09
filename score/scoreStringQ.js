@@ -172,7 +172,7 @@ function draw() {
           var cx4 = random(cx3, f2);
           var cy4 = random(cy3, f2y);
 
-          stroke(255, 10, 10);
+          stroke(255, 20, 147);
           ellipse(f1, f1y, 8, 8);
           ellipse(f2, f2y, 8, 8);
           var c = random(0, 510);
