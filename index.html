@@ -9,14 +9,8 @@
             padding: 0;
             margin: 0;
         }
-        
-        iframe {
-            z-index: -1;   
-        }
-        
-        img {
-            z-index: -1;   
-        }
+
+
 
         * {
             box-sizing: border-box;
@@ -45,6 +39,15 @@
             display: table;
             clear: both;
         }
+
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+
+            .left,
+            .right {
+                width: 100%;
+            }
+        }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.min.js"></script>
@@ -53,7 +56,7 @@
 </head>
 
 <body style="background-color: #FFFFFF">
-    
+
     <div class="row">
         <div class="column left">
             <h1>DAVIDALEXANDERCURRIE</h1>
@@ -61,7 +64,7 @@
                 <h2>SOCKET-AV</h2>
             </a>
         </div>
-        
+
         <div class="column right">
             <br>
             <br>
