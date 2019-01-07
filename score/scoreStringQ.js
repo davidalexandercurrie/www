@@ -19,7 +19,7 @@ function draw() {
 
 
   counter++;
-  if (counter % 10 == 0) {
+  if (counter % 180 == 0) {
 
     if (mouseIsPressed) {
       mouseSwitch = 1;
