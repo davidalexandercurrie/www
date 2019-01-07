@@ -11,17 +11,12 @@ function preload() {
 function setup() {
   createCanvas(800, 800);
   mySound.setVolume(0.5);
+
 }
 
 function draw() {
 
-  function mouseClicked() {
-    if (mysound.isPlaying()) {
-      mySound.pause();
-    } else {
-      mySound.play();
-    }
-  }
+
 
   counter++;
   if (counter % 10 == 0) {
@@ -395,4 +390,14 @@ function draw() {
       //save("diagonal.tif");
     }
   }
+}
+
+function mouseClicked() {
+  if (mySound.isPlaying() === true) {
+    mySound.pause();
+  } else {
+    mySound.play();
+  }
+
+
 }
