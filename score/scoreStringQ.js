@@ -1,11 +1,26 @@
 var mouseSwitch = 0;
 var counter = 0;
 
+
+function preload() {
+  soundFormats('wav', 'ogg');
+  mySound = loadSound('StringQuartetDavidCurrie.wav');
+}
+
 function setup() {
   createCanvas(800, 800);
+  mySound.setVolume(0.1);
 }
 
 function draw() {
+
+  function mouseClicked() {
+    if (mysound.isPlaying()) {
+      mySound.pause();
+    } else {
+      mySound.play();
+    }
+  }
 
   counter++;
   if (counter % 10 == 0) {
