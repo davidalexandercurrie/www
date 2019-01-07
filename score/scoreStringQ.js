@@ -3,7 +3,7 @@ var counter = 0;
 
 
 function preload() {
-  soundFormats('wav', 'ogg');
+
   mySound = loadSound('StringQuartetDavidCurrie.wav');
 }
 
