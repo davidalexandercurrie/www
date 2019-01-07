@@ -1,15 +1,16 @@
 var mouseSwitch = 0;
 var counter = 0;
+var mySound;
 
 
 function preload() {
   soundFormats('mp3', 'ogg');
-  mySound = loadSound('/sound/StringQuartetDavidCurrie.ogg');
+  mySound = loadSound('sound/StringQuartetDavidCurrie.ogg');
 }
 
 function setup() {
   createCanvas(800, 800);
-  mySound.setVolume(0.1);
+  mySound.setVolume(0.5);
 }
 
 function draw() {
