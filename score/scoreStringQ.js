@@ -2,25 +2,19 @@ var mouseSwitch = 0;
 var counter = 0;
 var mySound;
 
-
 function preload() {
-  soundFormats('mp3', 'ogg');
-  mySound = loadSound('sound/StringQuartetDavidCurrie.ogg');
+  soundFormats("mp3", "ogg");
+  mySound = loadSound("sound/StringQuartetDavidCurrie.ogg");
 }
 
 function setup() {
   createCanvas(800, 800);
   mySound.setVolume(0.5);
-
 }
 
 function draw() {
-
-
-
   counter++;
-  if (counter % 180 == 0) {
-
+  if (counter % 15 == 0) {
     if (mouseIsPressed) {
       mouseSwitch = 1;
     } else {
@@ -43,11 +37,11 @@ function draw() {
       // NOTE HEADS AND GLISS MARKS
       for (var i = 0; i < 8; i = i + 1) {
         for (var j = 0; j < 8; j = j + 1) {
-          var f1 = random(0, 80) + (j * 80) + 80;
-          var f1y = random(0, 80) + 80 + (i * 80);
+          var f1 = random(0, 80) + j * 80 + 80;
+          var f1y = random(0, 80) + 80 + i * 80;
 
-          var f2 = random(0, 80) + (j * 80) + 80;
-          var f2y = random(0, 80) + 80 + (i * 80);
+          var f2 = random(0, 80) + j * 80 + 80;
+          var f2y = random(0, 80) + 80 + i * 80;
 
           var cx = random(f1, f2);
           var cy = random(f1y, f2y);
@@ -101,11 +95,11 @@ function draw() {
           bezier(cx, cy, cx2, cy2, cx2, cy2, f2, f2y);
         }
         for (var j = 0; j < 8; j = j + 1) {
-          var f1 = random(0, 80) + (j * 80) + 80;
-          var f1y = random(0, 80) + 80 + (i * 80);
+          var f1 = random(0, 80) + j * 80 + 80;
+          var f1y = random(0, 80) + 80 + i * 80;
 
-          var f2 = random(0, 80) + (j * 80) + 80;
-          var f2y = random(0, 80) + 80 + (i * 80);
+          var f2 = random(0, 80) + j * 80 + 80;
+          var f2y = random(0, 80) + 80 + i * 80;
 
           var cx = random(f1, f2);
           var cy = random(f1y, f2y);
@@ -159,11 +153,11 @@ function draw() {
           bezier(cx, cy, cx2, cy2, cx2, cy2, f2, f2y);
         }
         for (var j = 0; j < 8; j = j + 1) {
-          var f1 = random(0, 80) + (j * 80) + 80;
-          var f1y = random(0, 80) + 80 + (i * 80);
+          var f1 = random(0, 80) + j * 80 + 80;
+          var f1y = random(0, 80) + 80 + i * 80;
 
-          var f2 = random(0, 80) + (j * 80) + 80;
-          var f2y = random(0, 80) + 80 + (i * 80);
+          var f2 = random(0, 80) + j * 80 + 80;
+          var f2y = random(0, 80) + 80 + i * 80;
 
           var cx = random(f1, f2);
           var cy = random(f1y, f2y);
@@ -217,11 +211,11 @@ function draw() {
           bezier(cx, cy, cx2, cy2, cx2, cy2, f2, f2y);
         }
         for (var j = 0; j < 8; j = j + 1) {
-          var f1 = random(0, 80) + (j * 80) + 80;
-          var f1y = random(0, 80) + 80 + (i * 80);
+          var f1 = random(0, 80) + j * 80 + 80;
+          var f1y = random(0, 80) + 80 + i * 80;
 
-          var f2 = random(0, 80) + (j * 80) + 80;
-          var f2y = random(0, 80) + 80 + (i * 80);
+          var f2 = random(0, 80) + j * 80 + 80;
+          var f2y = random(0, 80) + 80 + i * 80;
 
           var cx = random(f1, f2);
           var cy = random(f1y, f2y);
@@ -282,7 +276,7 @@ function draw() {
       for (var j = 0; j < 8; j = j + 1) {
         translate(0, 80);
         for (var i = 0; i < 5; i = i + 1) {
-          line(0, 25 + (i * 10), 80, 25 + (i * 10));
+          line(0, 25 + i * 10, 80, 25 + i * 10);
         }
         line(28, 0, 28, 80);
         line(36, 0, 36, 80);
@@ -310,8 +304,7 @@ function draw() {
         }
 
         for (var i = 0; i < 5; i = i + 1) {
-
-          line(0, 25 + (i * 10), 80, 25 + (i * 10));
+          line(0, 25 + i * 10, 80, 25 + i * 10);
         }
 
         line(28, 0, 28, 80);
@@ -329,7 +322,6 @@ function draw() {
         line(60, 8, 64, 22);
       }
 
-
       translate(160, 0);
       //STAVES RIGHT
       for (var j = 0; j < 8; j = j + 1) {
@@ -340,8 +332,7 @@ function draw() {
         }
 
         for (var i = 0; i < 5; i = i + 1) {
-
-          line(0, 25 + (i * 10), 80, 25 + (i * 10));
+          line(0, 25 + i * 10, 80, 25 + i * 10);
         }
 
         line(28, 0, 28, 80);
@@ -369,8 +360,7 @@ function draw() {
         }
 
         for (var i = 0; i < 5; i = i + 1) {
-
-          line(0, 25 + (i * 10), 80, 25 + (i * 10));
+          line(0, 25 + i * 10, 80, 25 + i * 10);
         }
 
         line(28, 0, 28, 80);
@@ -398,6 +388,4 @@ function mouseClicked() {
   } else {
     mySound.play();
   }
-
-
 }
