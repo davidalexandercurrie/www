@@ -8,12 +8,12 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(360, 360);
   mySound.setVolume(0.5);
 }
 
 function draw() {
-  scale(0.25);
+  scale(0.4504);
   counter++;
   if (counter % 15 == 0) {
     if (mouseIsPressed) {
