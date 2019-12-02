@@ -1,0 +1,75 @@
+{
+    "work": [
+        {
+            "id" : "home",
+            "photo": "dave1.jpg",
+            "firstColor": "#613A57",
+            "secondColor":"#A93451",
+            "thirdColor":"#452674"
+        },
+        {
+            "id" : "upCycle",
+            "heading": "UpCycle",
+            "firstColor": "rgb(226, 138, 43)",
+            "secondColor": "rgb(138, 43, 226)",
+            "thirdColor": "rgb(226, 43, 138)",
+            "url": "https://upcycle.tech/",
+            "description": "UpCycle is a collaborative web project that documents the learning of TidalCycles (a music programming language made for live-coding). Features: P5.js (with P5 Sound) for audio playback and visualiser, RegEx for syntax highlighting, HTML/CSS/JavaScript."
+        },
+        {
+            "id" : "comPoser",
+            "heading": "ComPoser",
+            "firstColor": "lightseagreen",
+            "secondColor": "rgb(242, 76, 115)",
+            "thirdColor":"#667B91",
+            "url": "https://davidalexandercurrie.github.io/ComPoser/",
+            "description": "ComPoser utilises machine learning technology to control sound with a series of user-generated poses. Features: ML5, PoseNet, P5, HTML/CSS/JavaScript."
+        },
+        {
+            "id" : "socketAV",
+            "heading": "SocketAV",
+            "firstColor":"#276169",
+            "secondColor":"#11414F",
+            "thirdColor":"#667B91",
+            "url": "https://socket-av.herokuapp.com/",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "id" : "stringQuartet",
+            "heading": "String Quartet",
+            "firstColor":"#2E4AFB",
+            "secondColor":"#75F040",
+            "thirdColor":"#EB58C8",
+            "final": "finalscore.jpeg",
+            "photo": "part1.jpeg",
+            "photo2": "part2.jpeg",
+            "photo3": "part3.jpeg",
+            "photo4": "part4.jpeg",
+            "photo5": "performerNotes.jpeg",
+            "video": "https://player.vimeo.com/video/313688789/",
+            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "id" : "ambisonic",
+            "heading": "Ambisonic Work",
+            "firstColor":"#ED4A2F",
+            "secondColor":"#74F16F",
+            "thirdColor":"#4C4C4C",
+            "photo": "max2.png",
+            "link": "https://soundcloud.com/davidalexandercurrie/",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            "id" : "necklace",
+            "heading": "Mesh Audio",
+            "firstColor":"#D0D36D",
+            "secondColor":"#64DBF2",
+            "thirdColor":"#C48CE6",
+            "video": "",
+            "photo":"micro2.JPG",
+            "photo2":"micro.JPG",
+            "gif": "necklaces.gif",
+            "description": "A sound installation exploring mesh network communication. Features: esp32 microcontrollers programmed with C."
+        }
+    ]
+}
