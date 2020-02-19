@@ -4,13 +4,13 @@ body {
   font-family: "Coda";
   letter-spacing: 0.1em;
   background: white;
-  color: #613A57;
+  color: #613a57;
 }
 
 .Nav #home {
   margin-left: 1em;
   font-size: 2em;
-  color: #A93451;
+  color: #a93451;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -36,7 +36,7 @@ body {
 
 .home p a:hover {
   text-decoration: underline;
-  color: #A93451;
+  color: #a93451;
 }
 
 #necklaceContainer {
@@ -63,7 +63,7 @@ body {
 #ambisonicContainer iframe {
   width: 60vw;
   margin: 3em 0;
-  background-color: #ED4A2F;
+  background-color: #ed4a2f;
 }
 
 .stringQuartet {
@@ -128,7 +128,7 @@ body {
 }
 
 #workList li:hover {
-  text-decoration: underline;
+  opacity: 0.6;
 }
 
 .Content {
