@@ -1,5 +1,4 @@
 import React from "react";
-import work from "../work.json";
 const Content = (props) => {
   const currentWork = props.page;
   return (
