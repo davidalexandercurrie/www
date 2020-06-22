@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Coda&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Blinker|Darker+Grotesque|Gayathri|Poppins:300|Raleway&display=swap");
 body {
+  transition: color 2s ease;
   font-family: "Coda";
   letter-spacing: 0.1em;
   background: rgb(255, 255, 255);
@@ -94,6 +95,7 @@ body {
 }
 
 #webFrameContainer {
+  transition: background-color 2s ease;
   position: relative;
   text-align: center;
   padding-bottom: 56.25%;
