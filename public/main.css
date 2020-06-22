@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css?family=Coda&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Blinker|Darker+Grotesque|Gayathri|Poppins:300|Raleway&display=swap");
+body {
+  -webkit-transition: color 2s ease;
+  transition: color 2s ease;
+  font-family: "Coda";
+  letter-spacing: 0.1em;
+  background: white;
+  color: #613a57;
+}
+
+.Nav #home {
+  -webkit-transition: color 2s ease;
+  transition: color 2s ease;
+  margin-left: 1em;
+  font-size: 2em;
+  color: #a93451;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.home {
+  text-align: center;
+  padding-top: 10vh;
+}
+
+.home img {
+  max-width: 100%;
+}
+
+.home p {
+  display: inline-block;
+  margin: auto 1.5em;
+}
+
+.home p a {
+  text-decoration: none;
+  color: #988364;
+}
+
+.home p a:hover {
+  text-decoration: underline;
+  color: #a93451;
+}
+
+#description {
+  -webkit-transition: color 2s ease;
+  transition: color 2s ease;
+}
+
+#necklaceContainer {
+  text-align: center;
+}
+
+#necklaceContainer iframe {
+  margin: 0.5em 0em 1em;
+}
+
+#necklaceContainer #necklacePhotoGallery img {
+  width: 45%;
+  margin: 0em 1em;
+}
+
+#ambisonicContainer {
+  text-align: center;
+}
+
+#ambisonicContainer img {
+  width: 95%;
+}
+
+#ambisonicContainer iframe {
+  width: 60vw;
+  margin: 3em 0;
+  background-color: #ed4a2f;
+}
+
+.stringQuartet {
+  text-align: center;
+}
+
+.stringQuartet img {
+  width: 100%;
+}
+
+.stringQuartetSplitSection img {
+  width: 50%;
+}
+
+.videoContainer {
+  position: relative;
+  text-align: center;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+#stringQuartetVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#webFrameContainer {
+  -webkit-transition: background-color 2s ease;
+  transition: background-color 2s ease;
+  position: relative;
+  text-align: center;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: 100%;
+}
+
+#webFrameContainer #webFrame {
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#workList {
+  font-size: 1.25em;
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0em;
+}
+
+#workList li {
+  margin: 2em;
+  cursor: pointer;
+}
+
+#workList li:hover {
+  opacity: 0.6;
+}
+
+.Content {
+  border: 1px solid transparent;
+  width: 100%;
+  text-align: left;
+  height: 150%;
+}
+
+.Content h1 {
+  text-decoration: underline;
+}
+
+.Content p {
+  font-size: 1.2em;
+}
+
+@media (min-width: 800px) {
+  .Nav {
+    position: fixed;
+  }
+  .Content {
+    margin-left: 20vw;
+    width: 77vw;
+    height: 100%;
+  }
+  .stringQuartet img {
+    width: 70%;
+  }
+  .stringQuartetSplitSection img {
+    width: 35%;
+  }
+  .videoContainer {
+    padding-bottom: 40.25%;
+  }
+  #stringQuartetVideo {
+    left: 15%;
+    width: 70%;
+  }
+}
+
+.button-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 640px;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=main.css.map */
