@@ -1,19 +1,19 @@
 import React from "react";
-const Nav = props => {
+const Nav = (props) => {
   return (
     <div className="Nav">
       <h1 onClick={() => props.setContentFunc("home")} id="home">
         David Currie
       </h1>
       <ul id="workList">
-        <li onClick={() => props.setContentFunc("necklace")} id="necklace">
-          Mesh Audio
-        </li>
         <li onClick={() => props.setContentFunc("multimono")} id="multimono">
           MultiMono
         </li>
         <li onClick={() => props.setContentFunc("upCycle")} id="upCycle">
           UpCycle
+        </li>
+        <li onClick={() => props.setContentFunc("necklace")} id="necklace">
+          Mesh Audio
         </li>
         <li onClick={() => props.setContentFunc("comPoser")} id="comPoser">
           ComPoser
