@@ -1,38 +1,61 @@
 import React from "react";
 import work from "../work.json";
-const Content = props => {
+const Content = (props) => {
   const currentWork = props.page;
   return (
     <div className="Content">
       {currentWork.id === "home" && (
         <div className="home">
           <img src={currentWork.photo} alt="" />
-          <br />
-          <p>
-            <a id="linkText" href="mailto:davidalexandercurrie.gmail.com">
-              david.alexander.currie@gmail.com
-            </a>
-          </p>
-          <p>
-            <a
-              id="linkText"
-              href="https://github.com/davidalexandercurrie/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
-          </p>
-          <p>
-            <a
-              id="linkText"
-              href="https://soundcloud.com/davidalexandercurrie/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              SoundCloud
-            </a>
-          </p>
+          <div className="button-row">
+            <p>
+              <a id="linkText" href="mailto:davidalexandercurrie.gmail.com">
+                david.alexander.currie@gmail.com
+              </a>
+            </p>
+            <p>
+              <a
+                id="linkText"
+                href="https://github.com/davidalexandercurrie/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+            </p>
+          </div>
+          <div className="button-row">
+            <p>
+              <a
+                id="linkText"
+                href="https://soundcloud.com/davidalexandercurrie/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                SoundCloud
+              </a>
+            </p>
+            <p>
+              <a
+                id="linkText"
+                href="https://twitter.com/dvdlxndr"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Twitter
+              </a>
+            </p>
+            <p>
+              <a
+                id="linkText"
+                href="https://www.instagram.com/davidalexandercurrie/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Instagram
+              </a>
+            </p>
+          </div>
         </div>
       )}
 

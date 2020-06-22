@@ -17,7 +17,7 @@ body {
 }
 .home {
   text-align: center;
-  padding-top: 20vh;
+  padding-top: 10vh;
   img {
     max-width: 100%;
   }
@@ -161,4 +161,11 @@ body {
     left: 15%;
     width: 70%;
   }
+}
+.button-row {
+  display: flex;
+  flex-direction: row;
+  width: 640px;
+  margin: 0 auto;
+  justify-content: space-between;
 }
