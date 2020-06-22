@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Coda&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Blinker|Darker+Grotesque|Gayathri|Poppins:300|Raleway&display=swap");
 body {
   font-family: "Coda";
   letter-spacing: 0.1em;
@@ -7,6 +8,8 @@ body {
 }
 
 .Nav #home {
+  -webkit-transition: color 2s ease;
+  transition: color 2s ease;
   margin-left: 1em;
   font-size: 2em;
   color: #a93451;
@@ -36,6 +39,11 @@ body {
 .home p a:hover {
   text-decoration: underline;
   color: #a93451;
+}
+
+#description {
+  -webkit-transition: color 2s ease;
+  transition: color 2s ease;
 }
 
 #necklaceContainer {

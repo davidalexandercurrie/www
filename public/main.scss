@@ -8,6 +8,7 @@ body {
 }
 .Nav {
   #home {
+    transition: color 2s ease;
     margin-left: 1em;
     font-size: 2em;
     color: #a93451;
@@ -35,6 +36,7 @@ body {
   }
 }
 #description {
+  transition: color 2s ease;
   // border: 1px solid black;
 }
 
